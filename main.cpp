@@ -52,7 +52,7 @@ void Bank::create_account()
 void Bank::show_account()
 {
     std::cout<<"Numer konta : "<<acc_number<<std::endl;
-    std::cout<<"\Imie posiadacza konta : "<<name;
+    std::cout<<"\nImie posiadacza konta : "<<name;
     std::cout<<"\nStan konta : "<<balance;
 }
 
